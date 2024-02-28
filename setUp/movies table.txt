@@ -1,0 +1,11 @@
+for movies table
+
+CREATE TABLE movies (
+    movie_id INT PRIMARY KEY,
+    title VARCHAR(255),
+    genre VARCHAR(100),
+    director VARCHAR(100),
+    description TEXT,
+    image_url VARCHAR(255)
+);
+
